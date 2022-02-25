@@ -1,0 +1,532 @@
+/*!
+Theme Name: HUBRU
+Theme URI:  https://bullcode.net/cursos
+Author: Jesus Lopez
+Author URI:  https://bullcode.net/cursos
+Description: child theme de jesus
+Version: 1.0.16
+License: GNU General Public License v2 or later
+License URI:  https://bullcode.net/cursos
+Tested up to: 5.7.2
+Requires PHP: 5.6
+Text Domain: Jesus Lopez
+Template:airi
+Tags: custom-background, right-sidebar, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, full-width-template
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Airi is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+ 
+/*----------------- Cambios a partir de aquí -------------------------------*/
+
+/* estilos menu */
+body{
+    overflow-x: hidden;
+}
+.name-bussines{
+    color:#2196f3;
+    font-weight: bolder;
+}
+.line-menu{
+    background-color: #e8f5ff;
+}
+.menu ul{
+    vertical-align:middle!important;
+    margin:20px 50px 5px 0;
+}
+.main-navigation li{
+    padding:10px;
+}
+.main-navigation a {
+    color:#2196f3;
+}
+.logo-img{
+    width: 8%!important;
+}
+/* final estilos menu */
+
+/*
+    estilos de header 
+*/
+.image-header,.why-parent,.image-header-bussines{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(29, 66, 93, 0.9);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    overflow: hidden;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+.image-header{
+    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/imagenfondo1.png');
+    padding: 100px;
+}
+.why-parent{
+    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/imagenfondo3.png');
+    padding: 50px;
+}
+
+.image-header-bussines{
+    background-position: center left;
+    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/europa-mapa-e1645280667764.png');
+    padding: 50px;
+}
+
+.header-info{
+    margin-top:30px;
+}
+.header-info h1,.header-info h3,.header-info p{
+    color:#fff;
+}
+.action-button{
+    padding:10px;
+    background-color:#6eb8f5;
+    color:#fff;
+    border-radius:5px;
+    display: block;
+    margin-top:15px;
+    margin:0px auto;
+    width:30%;
+    text-align: center;
+}
+.action-button:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color:#052642;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* Fin de estilos */
+
+/* estilos body home */
+.read-more-link{
+    margin-top:5px!important;
+}
+.post-6 .entry-header{
+    display:none
+}
+.services-div{
+    height:340px!important;
+    margin-top:50px;
+}
+.services-div a{
+    position: absolute;
+    width:90%!important;
+    bottom:-10px;
+}
+.button-services{
+    width:100%;
+}
+.fa-uncharted,.fa-globe,.fa-mobile-screen-button,.fa-code,.fa-door-open,.fa-user-tie,.fa-chart-line{
+    font-size:50px;
+}
+p,h3,.fa-uncharted,.fa-globe,.fa-mobile-screen-button,.fa-code{
+    color:#052642
+}
+.site-main{
+    padding:0px!important
+}
+.our-services{
+    padding:60px;
+}
+.about-us{
+    background-color:#052642;
+}
+.about-us h3,.about-us p{
+    color:#fff;
+    text-align:center;
+}
+.about-us p{
+    text-align:justify;
+}
+.box-about{
+    margin-top:80px;
+}
+.about-span,.why-span{
+    font-size:3rem;
+    font-weight:bold;
+    color:#2196f3
+}
+.know-more{
+    margin-top:30px;
+    border:1px solid #6eb8f5;
+    background-color:#052642!important;
+}
+.know-more:hover{
+    background-color:#6eb8f5!important;
+}
+.site-content{
+    padding:0px;
+}
+.our-technologies,.why-div{
+    margin-top:40px;
+}
+.why-div{
+    margin-bottom:30px;
+}
+.last-technolgies{
+    text-align:center;
+}
+.technologies-icon-div{
+    margin-top:30px;
+}
+.technologies-icon-div i{
+    font-size:50px;
+}
+.fa-angular{
+    color:#DE3641
+}
+.fa-react{
+    color:#61DAFB
+}
+.fa-laravel{
+    color:#FF2D20
+}
+.fa-php{
+    color:#474A8A
+}
+.fa-js{
+    color:#F0DB4F;
+}
+.fa-node{
+    color:#68A063
+}
+.fa-database{
+    color:#00758F
+}
+.fa-server{
+    color:#000e9c
+}
+.fa-envira{
+    color:#3FA037
+}
+.why-parent h4,.why-parent i{
+    color:#6eb8f5;
+}
+.why-parent i,.why-parent h2,.why-parent p{
+    color:#fff;
+}
+.call-phone{
+    margin-top:40px;
+}
+.call-phone i,.call-phone p{
+    color: #fff;
+    display:inline-block;
+    font-size: 30px;
+}
+/* fin estilos body home */
+
+/* estilos footer */
+.logo-img-footer{
+    display:block;
+}
+.fa-twitter{
+    margin-left: 15px;
+}
+.wrap-footer{
+    background-color: #e8f5ff;
+    padding:0px 20px 10px 20px;
+    color:#052642
+}
+.social-media-menu,.adress-menu{
+    margin-top:20px;
+}
+.social-media-menu i{
+    color:#052642;
+    font-size:30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+.adress-menu i{
+    color:#052642;
+}
+.social-media-menu a{
+    display:inline-block;
+    margin-top:30px;
+}
+
+/* fin estilos footer */
+
+
+/* estilos blog */
+.hentry{
+    display:block;
+    width:100%!important;
+    border:none!important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.post-inner{
+    margin: 15px 15px 15px 40px;
+    padding: 15px;
+}
+article:nth-child(even) .post-inner{
+    border:1px solid #e8f5ff;
+}
+article:nth-child(odd) .post-inner{
+    background-color:#e8f5ff;
+}
+.posted-on a,.gt{
+    color:#052642!important;
+}
+/* Estilos sidebar */
+
+.wp-block-search__input{
+    padding: 0px !important;
+    border-radius:4px!important;
+    margin-right:5px;
+}
+
+.wp-block-search__button{
+    padding:5px!important;
+    background-color:#052642;
+    color:#fff;
+    border-radius:5px;
+    display: block;
+    margin-top:15px;
+    margin:0px auto;
+    text-align: center;
+    font-size:12px;
+}
+.button-send{
+    padding:5px 10px!important;
+    background-color:#052642!important;
+    border:2px solid #052642!important;
+    color:#fff;
+    border-radius:5px;
+    margin-top:15px;
+    margin-left: 10px;
+    text-align: center;
+    font-size:12px;
+}
+.button-send:hover{
+    color:#fff!important;
+}
+.wp-block-search__button:hover{
+    background-color: #6eb8f5;
+    color:#fff;
+}
+
+/* fin estilos sidebar */
+
+.privacy-policy{
+    padding:30px;
+}
+.entry-title{
+    text-align:center;
+    margin:15px;
+}
+.entry-title a:hover{
+    color:#052642!important
+}
+.post-info .entry-title{
+    text-align:left;
+}
+
+/* estilos cada post */
+.each-article-post,.comments-area,.nav-links{
+    padding:30px!important;
+}
+.each-article-post .post-thumbnail img{
+    display:block;
+    margin:0px auto;
+}
+.each-article-post .entry-meta{
+    text-align:center;
+    margin:10px
+}
+.submit{
+    padding:10px;
+    background-color:#6eb8f5!important;
+    color:#fff;
+    border-radius:5px!important;
+    border:none!important;
+    display: block;
+    margin-top:15px;
+}
+.submit:hover{
+    color:#fff!important;
+    background-color:#052642!important;
+}
+.image-loop-parent a img{
+    width: 100%!important;
+}
+.title-each-post{
+    margin: 0px !important;
+}
+
+
+/*  Contacto */
+.read-politics{
+    display:inline-block;
+    margin-left:10px;
+}
+.input-contact{
+    width:100%;
+}
+.input-contact,.textarea-contact{
+    margin:5px
+}
+.text-conteact{
+    text-align:center;
+    margin-bottom:10px;;
+}
+.text-conteact span{
+    font-weight: bold;
+}
+.text-conteact i,.text-conteact .tel-contact{
+    font-size: 40px;
+}
+.user-identity{
+    color:#052642;
+    font-weight: bold;
+}
+.mobile-menu-bars{
+    font-size: 50px;
+}
+.menu-responsive-modal{
+    position:absolute;
+    display:none;
+    z-index:1;
+    width:100%;
+    top:100px;
+    padding:20px;
+    background-color:rgba(5, 38, 66,0.9);
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+.menu-responsive-modal ul a{
+    color:#fff!important;
+    font-size:20px;
+    margin:5px;
+    font-weight: bold;
+}
+.menu-responsive-modal ul{
+    list-style:none;
+}
+.menu-responsive-modal i{
+    float:right;
+    color:#fff!important;
+    font-size:30px;
+}
+.businnes-tecnologies-div i{
+    font-size:50px;
+}
+.businnes-parent h2{
+    text-align: center;
+    margin-top:30px;
+}
+.businnes-work{
+    margin-top:20px;
+    background-color: #e9f2fa;
+    padding:20px 5px 20px 5px;
+}
+
+/* Fin contacto */
+@media only screen and (max-width: 1024px) {
+    .image-header{
+        padding:60px!important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .adress-menu,.social-media-menu {
+      text-align: center;
+    }
+    .derechos{
+        margin-top:15px;
+    }
+    .box-about{
+        margin-top: 50px!important;
+    }
+    .last-technolgies,.box-about{
+        padding-left: 30px;
+        padding-right:30px;
+    }
+    .post-inner{
+        margin:0px!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .image-header{
+        padding:20px!important;
+    }
+    .why-parent{
+        padding:10px!important;
+    }
+    .tecnologies-div i,.tecnologies-div p{
+        clear: both;
+        font-size:90px;
+        margin:10px
+    }
+    .footer-image-div img{
+        margin:0px auto!important;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .text-conteact {
+        padding:10px
+    }
+}
+@media only screen and (max-width: 425px) {
+    .each-article-post,.comments-area,.nav-links{
+        padding:10px!important;
+    }
+}
+@media only screen and (max-width: 408px) {
+    .tel-contact {
+        font-size:28px!important;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .services-div {
+        height: 440px!important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .logo-img {
+        width: 17%!important;
+    }
+}
+@media only screen and (max-width: 1402px) {
+    .action-button{
+        width:100%!important;
+    }
+    .read-more-link{
+        margin-bottom:20px!important;
+    }
+}
