@@ -67,17 +67,17 @@ body{
     animation: fadein 2s;
 }
 .image-header{
-    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/imagenfondo1.png');
+    background-image: url('https://hubrutechnologies.com/wp-content/uploads/2022/02/imagenfondo1.png');
     padding: 100px;
 }
 .why-parent{
-    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/imagenfondo3.png');
+    background-image: url('https://hubrutechnologies.com/wp-content/uploads/2022/02/imagenfondo3.png');
     padding: 50px;
 }
 
 .image-header-bussines{
     background-position: center left;
-    background-image: url('http://localhost/hubrutecnologies/wp-content/uploads/2022/02/europa-mapa-e1645280667764.png');
+    background-image: url('https://hubrutechnologies.com/wp-content/uploads/2022/02/europa-mapa-e1645280667764.png');
     padding: 50px;
 }
 

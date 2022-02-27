@@ -40,10 +40,9 @@
 					</div>
 				</div>
 				<div class="col-md-12 col-12 col-lg-3 adress-menu">
-					<i class="fa-solid fa-phone"></i> : +44 7465 793793<br>
+					<i class="fa-solid fa-phone"></i> : 659 311 643<br>
 					<i class="fa-solid fa-envelope"></i> : bullcodeprogramacion@gmail.com<br>
-					<i class="fa-solid fa-location-pin"></i> : Flat 6 Dominic Court 8 Columbia Road<br>
-					BH104FQ Bournemouth (Dorset)
+					<i class="fa-solid fa-location-pin"></i> : Juan Ramón Jimenez 9 Maracena (Granada)<br>
 				</div>
 				<div class="col-md-12 col-12 col-lg-12 text-center derechos">
 					©2022 Web creada por Jesús López Rodríguez. Todos los derechos reservados.

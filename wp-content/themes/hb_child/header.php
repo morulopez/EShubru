@@ -39,7 +39,7 @@
 					<p>
 						Empresa dedicada al desarrollo y auditoria de software con las ultimas tecnologias del mercado
 					</p>
-					<a href="#" class='action-button'>¿Te apetece hablar?</a>
+					<a href="<?php echo get_site_url(); ?>/contacto" class='action-button'>¿Te apetece hablar?</a>
 				</div>
 			</div>
 		</div>
