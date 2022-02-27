@@ -23,8 +23,4 @@
       }
        
     add_action('wp_head', 'add_favicon');
-    	
-    define( 'WPCF7_VALIDATE_CONFIGURATION', false );
-
-    
 ?>
