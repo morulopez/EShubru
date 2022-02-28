@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-12 col-md-9 col-lg-6 text-center header-info">
 					<h1>Hubru Technologies</h1>
-					<h3>Actualizate y sigue soñanado</h3>
+					<h3>Actualizate y sigue soñando</h3>
 					<p>
 						Empresa dedicada al desarrollo y auditoria de software con las ultimas tecnologias del mercado
 					</p>
