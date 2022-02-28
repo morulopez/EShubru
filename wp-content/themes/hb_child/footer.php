@@ -41,7 +41,7 @@
 				</div>
 				<div class="col-md-12 col-12 col-lg-3 adress-menu">
 					<i class="fa-solid fa-phone"></i> : 659 311 643<br>
-					<i class="fa-solid fa-envelope"></i> : bullcodeprogramacion@gmail.com<br>
+					<i class="fa-solid fa-envelope"></i> : hubrutechnologies@gmail.com<br>
 					<i class="fa-solid fa-location-pin"></i> : Juan Ramón Jimenez 9 Maracena (Granada)<br>
 				</div>
 				<div class="col-md-12 col-12 col-lg-12 text-center derechos">
