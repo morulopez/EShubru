@@ -496,6 +496,10 @@ article:nth-child(odd) .post-inner{
     .footer-image-div img{
         margin:0px auto!important;
     }
+    .info-landing{
+        margin-right:0px!important;
+        margin-left:0px!important;
+    }
 }
 @media only screen and (max-width: 530px) {
     .text-conteact {
