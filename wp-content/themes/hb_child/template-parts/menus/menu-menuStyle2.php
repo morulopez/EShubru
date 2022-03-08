@@ -13,7 +13,7 @@
 			<ul>
 				<a href="<?php echo get_site_url(); ?>"><li>Home</li></a>
 				<a href="<?php echo get_site_url(); ?>/blog"><li>Blog</li></a>
-				<a href="<?php echo get_site_url(); ?>/contacto"><li>Contacto</li></a>
+				<a href="<?php echo get_site_url(); ?>/contacto"><li>Contact</li></a>
 			</ul>
 		</nav>
 	</div>

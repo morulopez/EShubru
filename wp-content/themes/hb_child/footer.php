@@ -35,17 +35,17 @@
 							<i class="fa-brands fa-facebook-f"></i>
 							<i class="fa-brands fa-linkedin-in"></i><br>
 							<a href="<?php echo get_site_url(); ?>/privacy-policy/">Política de Privacidad |</a>
-							<a href="<?php echo get_site_url(); ?>/politica-de-cookies/">Política de Cookies |</a><br>
+							<a href="<?php echo get_site_url(); ?>/cookies-policy/">Política de Cookies |</a><br>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-12 col-12 col-lg-3 adress-menu">
-					<i class="fa-solid fa-phone"></i> : 659 311 643<br>
+					<i class="fa-solid fa-phone"></i> : +44 7465 793793<br>
 					<i class="fa-solid fa-envelope"></i> : hubrutechnologies@gmail.com<br>
-					<i class="fa-solid fa-location-pin"></i> : Juan Ramón Jiménez 9 Maracena (Granada)<br>
+					<i class="fa-solid fa-location-pin"></i> : Flat 6 Dominic Court 8 Columbia Road BH104FQ<br>
 				</div>
 				<div class="col-md-12 col-12 col-lg-12 text-center derechos">
-					©2022 Web creada por Jesús López Rodríguez. Todos los derechos reservados.
+					©2022 Website created by Jesús López Rodríguez. All rights reserved.
 				</div>
 			</div>
 		</div>

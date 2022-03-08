@@ -35,11 +35,11 @@
 				</div>
 				<div class="col-12 col-md-9 col-lg-6 text-center header-info">
 					<h1>Hubru Technologies</h1>
-					<h3>Actualizate y sigue soñando</h3>
+					<h3>Upgrade and keep dreaming</h3>
 					<p>
-						Empresa dedicada al desarrollo y auditoría de software con las últimas tecnologías del mercado
+					Company dedicated to the development and auditing of software with the latest technologies on the market
 					</p>
-					<a href="<?php echo get_site_url(); ?>/contacto" class='action-button'>¿Te apetece hablar?</a>
+					<a href="<?php echo get_site_url(); ?>/contacto" class='action-button'>Do you feel like talking ?</a>
 				</div>
 			</div>
 		</div>
